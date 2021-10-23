@@ -17,7 +17,7 @@ mcd() {
     cd "$1"
 }
 source xx.sh # execute this script in our shell and load it
-# mcd function has been difeined into our shell
+# mcd function has been defined into our shell
 mcd test
 
 # reserved commands
@@ -102,11 +102,11 @@ convert image.png image.jpg
 convert image.{png,jpg}
 touch foo{,1,2} # touch foo foo1 foo2
 touch project{1,2}/src/test/test{1,2,3}.py
-touch{foo,bar}/{a..j} # touch foo/a touch foo/b ...
+touch {foo,bar}/{a..j} # touch foo/a touch foo/b ...
 diff <(ls foo) <(ls bar)
 
 #using python scripy in shell
-#first specify where the interceptor is
+#first specify where the interpreter is
 #using
 #!/usr/bin/env python
 #instead
@@ -115,7 +115,8 @@ diff <(ls foo) <(ls bar)
 
 shellcheck xx.sh
 
-#fancy tools
+#fancy tools  for instruction how to use the command with examples
+#fancy tools  for instruction how to use the command with examples
 yum install tldr
 tldr wget # like man or --help
 tldr tar
