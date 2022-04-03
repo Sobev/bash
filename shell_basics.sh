@@ -1,5 +1,5 @@
 #!/bin/bash
-#shell script basic learning
+#shell script basic learning https://devhints.io/bash
 foo=bar
 echo $foo #work well
 foo = bar #not working error msg command not found : foo
