@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Proceed continue') {
+      steps {
+        input 'click proceed to continue'
+      }
+    }
+
   }
 }
